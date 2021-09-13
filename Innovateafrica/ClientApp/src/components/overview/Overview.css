@@ -1,0 +1,196 @@
+.overview{
+    width: 100%;
+}
+
+.overvieWrapper{
+    padding: 0 20px;
+}
+
+.overviewHr{
+    margin: 20px 0;
+}
+
+.overviewTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.overviewTopRightFilter{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.overviewCenterIdeaSection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.overviewCenterIdeaInformation{
+    display: flex;
+}
+
+.overviewCenterIdeaCreated{
+    display: flex;
+    flex: 1;
+}
+
+.overviewCenterIdeaHeader{
+    margin-bottom: 10px;
+}
+.overviewCenterIdeaHeaderText{
+    font-size: 18px;
+}
+
+.overviewCenterIdeaCreatedInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.overviewCenterIdeaCreatedSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overviewCenterIdeaCreatedIcon{
+    padding: 5px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+}
+
+.overviewCenterIdeaCreatedDescText{
+    font-size: 12px;
+}
+
+.overviewIdeasContent{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.overviewIdeasContentHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.overviewIdeaHeaderLeftText{
+    font-weight: 500;
+}
+
+.overviewIdeaHeaderRight{
+    align-items: center;
+    justify-content: center;
+}
+
+.overviewIdeasContentBody{
+    margin-bottom: 20px;
+}
+
+.overviewIdeasContentFooterTags{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.overviewProfileIdentityList{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.overviewProfileIdentity{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px 5px;
+}
+
+.overviewProfileIdentityLabel{
+    padding-left: 5px;
+}
+
+.overviewProfileIdentityInput{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.overviewProfileIdentityInput:focus{
+    outline: none;
+}
+
+
+
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postProfileImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    /* object-fit: contain; */
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
