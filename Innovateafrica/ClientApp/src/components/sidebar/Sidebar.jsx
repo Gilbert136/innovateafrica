@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css';
-import { FolderOpenOutlined, AccountTreeOutlined, ImportContactsOutlined, LocalFloristOutlined, InsertChartOutlinedOutlined, Event } from '@material-ui/icons';
+import { FolderOpenOutlined, AccountTreeOutlined, ImportContactsOutlined, LocalFloristOutlined, InsertChartOutlinedOutlined } from '@material-ui/icons';
 import { Users } from '../../dummyData';
 import Friend from '../friend/Friend';
 

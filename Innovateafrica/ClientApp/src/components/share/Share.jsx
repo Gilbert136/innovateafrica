@@ -1,13 +1,30 @@
 import React from 'react'
 import './Share.css';
-import { PermMedia, EmojiEmotions, Label, Room } from '@material-ui/icons'
+// import { PermMedia, EmojiEmotions, Label, Room } from '@material-ui/icons'
+
+export const Share1 = function () {
+    return (
+        <div className="share">
+            <div className="shareWrapper">
+                <div className="shareTop">
+                    <img src="/Assets/person/1.jpeg" alt="" className="shareProfileImg" />
+                    <textarea placeholder="Will you like to share your ideas with us?" className="shareInput" row="2"/>
+                </div>
+                <div className="shareBottom">
+                    <div className="shareOptions">
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
 
 export default function Share() {
     return (
         <div className="share">
             <div className="shareWrapper">
                 <div className="shareTop">
-                    <img src="/assets/person/1.jpeg" alt="" className="shareProfileImg" />
+                    <img src="/Assets/person/1.jpeg" alt="" className="shareProfileImg" />
                     <textarea placeholder="Will you like to share your ideas with us?" className="shareInput" row="2"/>
                 </div>
                 <hr className="shareHr"/>

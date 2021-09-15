@@ -1,7 +1,8 @@
 import React from 'react'
 import './Feed.css';
-import Share from '../share/Share';
-import Overview from '../overview/Overview';
+// import Share from '../share/Share';
+import Share, { Share1 } from '../share/Share';
+// import Overview from '../overview/Overview';
 import Post from '../post/Post';
 import { Posts } from '../../dummyData'
 
@@ -10,7 +11,8 @@ export default function Feed() {
         <div className="feed">
             <div className="feedWrapper">
                 {/* <Overview /> */}
-                <Share />
+                <Share1 />
+                {/* <Share /> */}
                 {Posts.map((p) => (<Post key={p.id} post={p} />))}
             </div>
         </div>

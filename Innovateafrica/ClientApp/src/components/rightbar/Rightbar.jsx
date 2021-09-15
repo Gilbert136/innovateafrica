@@ -1,7 +1,7 @@
 import React from 'react'
-import { Users } from '../../dummyData';
+// import { Users } from '../../dummyData';
 import './Rightbar.css';
-import Online from '../online/Online'
+// import Online from '../online/Online'
 
 
 export default function Rightbar({profile}) {
