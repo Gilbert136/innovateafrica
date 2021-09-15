@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Post.css';
-import { MoreVert, FavoriteBorder, SentimentDissatisfiedOutlined, ChatBubbleOutlineOutlined } from "@material-ui/icons";
+import { MoreVert, FavoriteBorder, SentimentDissatisfiedOutlined, ChatBubbleOutlineOutlined, AccountTreeOutlined, DescriptionOutlined } from "@material-ui/icons";
 import { Users } from '../../dummyData';
 
 export default function Post({post}) {
@@ -39,6 +39,14 @@ export default function Post({post}) {
                         </div>
                         <div className="postlikes">
                             <span className="postlikesIcon" onClick={likeHandler}><SentimentDissatisfiedOutlined /></span>
+                            <span className="postlikestest">{ like }</span>
+                        </div>
+                        <div className="postlikes">
+                            <span className="postlikesIcon" onClick={likeHandler}><AccountTreeOutlined /></span>
+                            <span className="postlikestest">{ like }</span>
+                        </div>
+                        <div className="postlikes">
+                            <span className="postlikesIcon" onClick={likeHandler}><DescriptionOutlined /></span>
                             <span className="postlikestest">{ like }</span>
                         </div>
                     </div>
