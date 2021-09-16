@@ -1,0 +1,75 @@
+.IdeaShare{
+    width: 100%;
+    /* height: 170px; */
+}
+
+.IdeaShareWrapper{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.IdeaShareTop{
+    display: flex;
+    align-items: center;
+}
+
+.IdeaShareProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.IdeaShareInput{
+    border: none;
+    width: 80%;
+    resize: none;
+}
+
+.IdeaShareInput:focus{
+    outline: none;
+}
+
+.IdeaShareIcon{
+    font-size: 30px !important;
+    margin: 3px;
+}
+
+.IdeaShareHr{
+    margin: 20px;
+}
+
+.IdeaShareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IdeaShareOptions{
+    display: flex;
+}
+
+.IdeaShareOption{
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.IdeaShareOptionsText{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.IdeaShareButton{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+

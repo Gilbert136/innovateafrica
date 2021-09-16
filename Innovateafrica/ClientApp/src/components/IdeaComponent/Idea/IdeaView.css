@@ -1,0 +1,90 @@
+.idea{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.ideaWrapper{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ideaTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ideaTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+.ideaProfileImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ideaUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.ideaDate{
+    font-size: 12px;
+}
+
+.ideaCenter{
+    margin: 20px 0;
+}
+
+.ideaImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    /* object-fit: contain; */
+}
+
+.ideaBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ideaBottomLeft{
+    display: flex;
+}
+
+.idealikes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.idealikesIcon{
+    margin-right: 5px;
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.ideaLikeCounter{
+    font-size: 15px
+}
+
+.ideaCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
